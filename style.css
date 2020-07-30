@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    background-color: #EDEEF0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blackHeart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+nav ul li {
+    margin: 0 20px;
+    padding-bottom: 10px;
+
+}
+
+.int {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    font-size: 1em;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    color: black;
+    font-size: bold;
+
+}
+
+header div .options {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.options form img {
+    width: 80px;
+
+}
+
+.options form .input {
+    line-height: 2em;
+    width: 850px;
+    border-radius: 3px;
+    border-color: black;
+    margin: 20px 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+}
+
+header div img {
+    width: 40px;
+    height: 30px;
+}
+
+#home,
+#home-intro {
+    justify-content: center;
+    flex-flow: column wrap;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#home {
+    background-image: url(./assets/b1.png);
+    width: 100%;
+}
+
+#home h1 {
+    font-size: 80px;
+    padding-bottom: 20px;
+    line-height: 55pt;
+}
+
+#home p {
+
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+#home-intro {
+    background-image: url(./assets/background2.png);
+    height: 400px;
+    width: 100%;
+}
+
+#home-intro h3 {
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+#home-intro h3 p {
+    padding-bottom: 20px;
+
+}
+
+#home-intro form {
+    padding-top: 40px;
+}
+
+#company,
+#sources,
+#bio div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4em;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#bio div h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    line-height: 35pt;
+}
+
+#sources {
+    background-image: url(./assets/background.png);
+    width: 100%;
+    height: 300px;
+}
+
+#products {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+#products div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#products div article {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    float: left;
+}
+
+.hed {
+    padding-top: 13px;
+}
+
+#products div article p {
+    display: flex;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#sources h3 {
+    font-size: 3.2em;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#sources p {
+    color: white;
+}
+
+#company h2 {
+    font-size: 2.5em;
+    color: black;
+    line-height: 33pt;
+    font-weight: 600;
+    padding-bottom: 1.5em;
+}
+
+#company img {
+    padding-bottom: 2em;
+}
+
+#contact div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    line-height: 30pt;
+}
+
+#contact div ul {
+    list-style: none;
+}
+
+#contact div h5 {
+    font-size: 1em;
+}
